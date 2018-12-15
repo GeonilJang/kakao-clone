@@ -2,6 +2,9 @@
   background-color: #523737;
   color:white;
   padding: 5px 10px 15px 10px;
+  position:fixed;
+  width:100%;
+  top:0;
 }
 
 .top-header .header__top,
@@ -19,15 +22,15 @@
   margin: 0 10px;
 }
 
-.top-header .header__column{
+.top-header .header__colum{
   width: 33%
 }
 
-.top-header .header__column:last-child{
+.top-header .header__colum:last-child{
   text-align:right;
 }
 
-.top-header .header__column:nth-child(2){
+.top-header .header__colum:nth-child(2){
   text-align:center;
 }
 
