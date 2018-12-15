@@ -1,0 +1,74 @@
+.top-header--transparent{
+  background-color:transparent;
+}
+
+.profile .profile__header{
+  height:80vh;
+  background-color:red;
+  width:100%;
+  position:relative;
+  top:-63px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  align-items:center;
+  background-image:url('https://i.pinimg.com/236x/2e/69/86/2e6986927e5a8f8b2b09f5d7c0a7f92f--friends-wallpaper-phone-backgrounds.jpg');
+}
+
+.profile__header .profile__header-container{
+  text-align:center;
+  position:relative;
+  bottom:-60px;
+}
+
+.profile__header-container img{
+  width:100px;
+  border-radius:50%;
+  margin-bottom:20px;
+}
+
+.profile .profile__container{
+  margin-top:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.profile__container input{
+  padding: 5px;
+  margin-bottom:20px;
+  width:145px;
+  outline:none;
+
+}
+
+.profile_container input:focus{
+  outline:none;
+}
+
+.profile__actions{
+  display:flex;
+  justify-content:space-around;
+}
+
+.profile__action{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-right:15px;
+  cursor:pointer;
+}
+
+.profile__action-circle{
+  background:#f2f2f2;
+  padding:15px;
+  border-radius:50%;
+  color:#523737;
+  font-size:10px;
+  margin-bottom:10px;
+}
+
+.profile__action-title{
+  font-size:12px;
+  font-weight:600;
+}

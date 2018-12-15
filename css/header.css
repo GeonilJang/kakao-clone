@@ -5,6 +5,11 @@
   position:fixed;
   width:100%;
   top:0;
+  z-index: 2;
+}
+
+.top-header a{
+  color:white;
 }
 
 .top-header .header__top,
@@ -24,6 +29,10 @@
 
 .top-header .header__colum{
   width: 33%
+}
+
+.top-header .header__bottom .header__colum:first-child{
+  color: rgba(255,255,255,0.5);
 }
 
 .top-header .header__colum:last-child{
