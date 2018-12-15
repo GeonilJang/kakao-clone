@@ -29,6 +29,10 @@
   color:inherit;
 }
 
+.friends__section-row:hover{
+  background-color: #eeeeee;
+}
+
 .friends__section-row .friends__section-name{
   margin-left: 10px;
 }
