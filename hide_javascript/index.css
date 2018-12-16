@@ -19,6 +19,10 @@ h1{
   color:yellow;
 }
 
+.timer .js-greetings{
+  color:pink;
+}
+
 .js-clock{
   color:white;
 }
@@ -32,4 +36,22 @@ h1{
 
 .timer a {
   text-decoration:none;
+}
+
+.form,
+.greetings{
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+
+.todo-div{
+  width:100%;
+  padding-top: 30px;
+}
+
+.js-toDoList{
+  left: 0;
 }
