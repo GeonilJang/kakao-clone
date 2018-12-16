@@ -1,0 +1,35 @@
+body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #523737;
+}
+
+.btn{
+  cursor:pointer;
+}
+
+h1{
+  color:red;
+  transition: color 0.4s ease-in-out;
+}
+
+.clicked{
+  color:yellow;
+}
+
+.js-clock{
+  color:white;
+}
+.timer{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.timer a {
+  text-decoration:none;
+}
