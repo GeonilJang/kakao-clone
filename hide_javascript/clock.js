@@ -26,7 +26,7 @@ function getTiem(){
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const day = date.getDate();
-  clockTitle.innerText =`${year}-${month}-${day} ${hours < 10 ? `0${hours}` : hours} : ${min < 10 ? `0${min}` : min} : ${sec < 9 ? `0${sec}` : sec}`;
+  clockTitle.innerText =`${year}-${month}-${day} ${hours < 10 ? `0${hours}` : hours} : ${min < 10 ? `0${min}` : min} : ${sec < 10 ? `0${sec}` : sec}`;
 }
 
 function init(){
