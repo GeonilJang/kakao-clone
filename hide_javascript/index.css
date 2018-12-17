@@ -66,10 +66,56 @@ h1{
 }
 
 .todo-div{
+  width:100%;
   padding-top:30px;
   background-color: #523737;
 }
 
 .js-toDoList{
   left: 0;
+  padding-right:40px;
+}
+
+.js-toDoList li{
+  border-bottom:1px solid rgba(225,225,225,0.3);
+  padding: 10px 0;
+  display:flex;
+  line-break;
+  width:100%;
+  justify-content:space-between;
+}
+
+
+.js-toDoList div:first-child{
+  width:90%;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+}
+
+.js-toDoList div:last-child{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.js-toDoList div span:first-child{
+  font-size:10px;
+}
+
+.js-toDoList div span:last-child{
+  line-break;
+}
+
+
+.js-toDoList button{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:20px;
+  width:20px;
+  opacity:0.9;
+  border-radius:50%;
+
 }
