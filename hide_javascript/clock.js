@@ -10,7 +10,11 @@ const date = new Date();
 const min = date.getMinutes();
 const hours = date.getHours();
 const sec = date.getSeconds();
-clockTitle.innerText =`${hours < 10 ? `0${hours}` : hours} : ${min < 10 ? `0${min}` : min} : ${sec < 9 ? `0${sec}` : sec}`;
+
+const year = date.getFullYear();
+const month = date.getMonth() + 1;
+const day = date.getDate();
+clockTitle.innerText =`${year}-${month}-${day} ${hours < 10 ? `0${hours}` : hours} : ${min < 10 ? `0${min}` : min} : ${sec < 10 ? `0${sec}` : sec}`;
 })();
 
 function getTiem(){
@@ -18,7 +22,11 @@ function getTiem(){
   const min = date.getMinutes();
   const hours = date.getHours();
   const sec = date.getSeconds();
-  clockTitle.innerText =`${hours < 10 ? `0${hours}` : hours} : ${min < 10 ? `0${min}` : min} : ${sec < 9 ? `0${sec}` : sec}`;
+
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  clockTitle.innerText =`${year}-${month}-${day} ${hours < 10 ? `0${hours}` : hours} : ${min < 10 ? `0${min}` : min} : ${sec < 9 ? `0${sec}` : sec}`;
 }
 
 function init(){
