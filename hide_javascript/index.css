@@ -7,10 +7,13 @@
 }
 
 body{
-  background-color: #2c3e50;
+
+
 }
 
 body{
+  font-size:11px;
+  background-color: purple;
   width: 100%;
   margin: 0 0;
   padding: 250px 0 0 0;
@@ -105,19 +108,24 @@ h1{
 .js-toDoList li{
   color:white;
   border-bottom:1px solid rgba(225,225,225,0.3);
-  padding: 20px 0;
+  padding: 10px 0;
   display:flex;
   width:100%;
   justify-content:space-between;
 }
 
+.textSpan{
+  font-size: 16px;
+  width: 120px;
+}
+
 .js-toDoList li .fd .textSpan div{
-  font-size: 12px;
+  font-size: 10px;
   width: 120px;
 }
 
 .js-toDoList li div{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .js-toDoList li .fd{
