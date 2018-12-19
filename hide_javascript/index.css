@@ -7,12 +7,11 @@
 }
 
 body{
-
-
+  background-size: 100%;
 }
 
 body{
-  font-size:11px;
+  font-size:15px;
   background-color: purple;
   width: 100%;
   margin: 0 0;
@@ -30,16 +29,39 @@ input{
   cursor:pointer;
 }
 
-
-
 h1{
   color:red;
-  transition: color 0.4s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 
 .clicked{
+  color:red;
+}
+
+.clicked1{
+  color:orange;
+}
+.clicked2{
   color:yellow;
 }
+.clicked3{
+  color:green;
+}
+.clicked4{
+  color:blue;
+}
+.clicked5{
+  color:navy;
+}
+.clicked6{
+  color:purple;
+}
+
+
+
+
+
+
 
 .timer{
   position:relative;
@@ -89,13 +111,13 @@ h1{
   width:80%;
   position:fixed;
   z-index:2;
-  top:0;
+  top:100px;
 
 }
 
 .todo-div{
   width:100%;
-  padding-top:30px;
+  padding-top:130px;
   /* background-color: #523737; */
 }
 
@@ -116,7 +138,7 @@ h1{
 
 .textSpan{
   font-size: 16px;
-  width: 120px;
+  width: 100%;
 }
 
 .js-toDoList li .fd .textSpan div{
