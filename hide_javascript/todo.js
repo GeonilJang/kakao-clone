@@ -90,6 +90,10 @@ function init(){
   loadToDos();
   tForm.addEventListener("submit",(event)=>{
     event.preventDefault();
+    tInput.value = tInput.value.replace(/</gi,"&lt;");
+    tInput.value = tInput.value.replace(/>/gi,"&gt;");    
+
+
     const currentValue = tInput.value;
     tInput.value = "";
     paintToDo(currentValue);
